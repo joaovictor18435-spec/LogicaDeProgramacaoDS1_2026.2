@@ -8,3 +8,6 @@ e retorne o valor com 15% de desconto à vista aplicado.
 """
 
 # TODO: Desenvolva a expressão lambda e teste-a abaixo:
+produto = float(input("qual o valor do produto:"))
+desconto =  lambda c:c-((c/100)*15)
+print("valor final do produto:R$",desconto(produto))

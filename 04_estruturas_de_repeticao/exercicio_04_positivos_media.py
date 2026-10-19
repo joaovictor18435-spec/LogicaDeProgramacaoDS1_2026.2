@@ -9,3 +9,10 @@ Imprima a quantidade de positivos e a média formatada com 1 casa decimal.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+numero = 0
+for valores in range(6):
+    numerales = float(input("digite um numero: "))
+    if numerales > 0 :
+        numero+=numerales
+        resposta = numero/6
+print(f"media dos numero digitados {resposta:.1f}")

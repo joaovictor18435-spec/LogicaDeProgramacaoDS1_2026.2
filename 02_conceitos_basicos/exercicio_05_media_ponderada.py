@@ -9,3 +9,11 @@ Calcule e exiba a média final ponderada utilizando apenas operadores aritmétic
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+from os import replace
+
+
+nota1 = float(input("qual a nota da primeira avaliação?"))
+nota2 = float(input("qual a nota da segunda avaliação?"))
+nota3 = float(input("qual a nota da terceira avaliação"))
+resutado = ((nota1 *2)+(nota2 *3)+(nota3*5))/10
+print(f"a media final é:{resutado:,.2f}".replace('.',','))

@@ -2,7 +2,7 @@
 EXERCÍCIO 02: Consumo da Kawasaki Versys 300
 Disciplina: Lógica de Programação com Python
 
-ENUNCIADO:
+ENUNCIADO:#
 Para planejar uma viagem técnica de Tianguá até o Beach Park (Aquiraz),
 solicite:
 1. A distância total percorrida (em Km).
@@ -12,3 +12,11 @@ Calcule e imprima o consumo médio da motocicleta (Km/L) formatado com 2 casas d
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+from sys import float_info
+
+print ("bem-vindo a nossa empresa")
+ditancia = input("qual a distância total percorrida?")
+cumbustivel = input("qual o total de combustível gasto?")
+resultado1 = int(ditancia)+int(cumbustivel)
+resultado2 = (resultado1)/2
+print (f"{resultado2:.2f} litros por quilometro")

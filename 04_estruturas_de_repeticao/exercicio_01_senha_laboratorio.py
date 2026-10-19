@@ -9,3 +9,11 @@ Ao acertar, imprima "Acesso Permitido" e finalize o programa.
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+variavel = 2002
+while True:
+    rapais = int(input("degite sua senha"))
+    if rapais==variavel:
+        print("senha valida")
+        break
+    else :
+        print("senha invalida")

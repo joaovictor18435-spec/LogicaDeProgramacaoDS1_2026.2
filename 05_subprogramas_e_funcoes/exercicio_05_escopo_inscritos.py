@@ -9,3 +9,17 @@ para atualizar a variável. Demonstre o valor de total_inscritos antes e depois 
 """
 
 # TODO: Desenvolva o algoritmo abaixo:
+total_inscritos = 0
+while True:
+    aluno = str(input("você quer participar;"))
+    if aluno=="sim":
+        inscrever_aluno=1
+        total_inscritos+=inscrever_aluno
+    else:
+        print("se increve aí:")
+    if total_inscritos == 21:
+        print("limite de incritos")
+    break
+print("total inscrito:",total_inscritos)
+
+# total_inscritos = 0
